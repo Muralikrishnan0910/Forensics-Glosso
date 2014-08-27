@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BC5121FB-E1D0-4F2B-A0A4-13BAD673B7A4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Forensics Glosso</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1256A978-B097-4BC5-A063-1C97FE64F18A</key>
+		<string>https://github.com/Muralikrishnan0910/Forensics-Glosso.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Forensics Glosso/Forensics Glosso.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1256A978-B097-4BC5-A063-1C97FE64F18A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Muralikrishnan0910/Forensics-Glosso.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1256A978-B097-4BC5-A063-1C97FE64F18A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1256A978-B097-4BC5-A063-1C97FE64F18A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Forensics-Glosso</string>
+		</dict>
+	</array>
+</dict>
+</plist>

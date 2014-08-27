@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface HomeViewController : UIViewController
+- (IBAction)sidebarButton:(id)sender;
 @property(nonatomic,weak)IBOutlet UIBarButtonItem *sidebarButton;
+//@property(nonatomic,weak)IBAction UIBarButtonItem *sidebarButton;
 @end

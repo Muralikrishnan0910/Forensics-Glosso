@@ -1,18 +1,18 @@
 //
-//  MenuTableViewController.m
+//  GlossaryTableViewController.m
 //  Forensics Glosso
 //
 //  Created by BSA Univ15 on 27/08/14.
 //  Copyright (c) 2014 BSA Univ15. All rights reserved.
 //
 
-#import "MenuTableViewController.h"
+#import "GlossaryTableViewController.h"
 
-@interface MenuTableViewController ()
+@interface GlossaryTableViewController ()
 
 @end
 
-@implementation MenuTableViewController
+@implementation GlossaryTableViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -25,18 +25,7 @@
 
 - (void)viewDidLoad
 {
-    
-   
-    
-    
-    
-    self.view.backgroundColor = [UIColor colorWithWhite:0.10f alpha:1.0f];
-    self.tableView.backgroundColor = [UIColor colorWithWhite:0.2f alpha:1.0f];
-    self.tableView.separatorColor = [UIColor colorWithWhite:0.15f alpha:0.2f];
-    
-    _menuItems=@[@"title",@"home",@"glossary",@"quiz",@"settings",@"exit"];
     [super viewDidLoad];
-   
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -44,34 +33,7 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
-- (void) prepareForSegue: (UIStoryboardSegue *) segue sender: (id) sender
-{
-    // Set the title of navigation bar by using the menu items
-    //    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-    //    UINavigationController *destViewController = (UINavigationController*)segue.destinationViewController;
-    //    destViewController.title = [[_menuItems objectAtIndex:indexPath.row] capitalizedString];
-    
-    
-    // Set the photo if it navigates to the PhotoView
-    //    if ([segue.identifier isEqualToString:@"showPhoto"]) {
-    //        PhotoViewController *photoController = (PhotoViewController*)segue.destinationViewController;
-    //        NSString *photoFilename = [NSString stringWithFormat:@"%@_photo.jpg", [_menuItems objectAtIndex:indexPath.row]];
-    //        photoController.photoFilename = photoFilename;
-    //    }
-    
-    if ( [segue isKindOfClass: [SWRevealViewControllerSegue class]] ) {
-        SWRevealViewControllerSegue *swSegue = (SWRevealViewControllerSegue*) segue;
-        
-        swSegue.performBlock = ^(SWRevealViewControllerSegue* rvc_segue, UIViewController* svc, UIViewController* dvc) {
-            
-            UINavigationController* navController = (UINavigationController*)self.revealViewController.frontViewController;
-            [navController setViewControllers: @[dvc] animated: NO ];
-            [self.revealViewController setFrontViewPosition: FrontViewPositionLeft animated: YES];
-        };
-        
-    }
-    
-}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -80,27 +42,20 @@
 
 #pragma mark - Table view data source
 
-//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-//{
-//
-//    // Return the number of sections.
-//    return 0;
-//}
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+#warning Potentially incomplete method implementation.
+    // Return the number of sections.
+    return 0;
+}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-
+#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return [self.menuItems count];
-    
+    return 0;
 }
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    NSString *CellIdentifier = [self.menuItems objectAtIndex:indexPath.row];
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    
-    return cell;
-}
+
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {

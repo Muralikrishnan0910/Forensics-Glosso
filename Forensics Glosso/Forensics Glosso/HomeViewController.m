@@ -23,6 +23,7 @@
     
     // Set the gesture
     [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -32,4 +33,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)sidebarButton:(id)sender {
+//    _sidebarButton.target = self.revealViewController;
+//    _sidebarButton.action = @selector(revealToggle:);
+//    
+//    // Set the gesture
+//    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+}
 @end

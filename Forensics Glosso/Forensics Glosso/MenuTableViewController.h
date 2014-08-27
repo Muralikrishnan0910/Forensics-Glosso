@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "SWRevealViewController.h"
 @interface MenuTableViewController : UITableViewController
 @property (nonatomic, strong) NSArray *menuItems;
+@property (strong, nonatomic) IBOutlet UITableView *tableview;
 @end
