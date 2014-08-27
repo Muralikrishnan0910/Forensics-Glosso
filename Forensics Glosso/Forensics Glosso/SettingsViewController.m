@@ -7,7 +7,7 @@
 //
 
 #import "SettingsViewController.h"
-
+#import "SWRevealViewController.h"
 @interface SettingsViewController ()
 
 @end
@@ -25,6 +25,28 @@
 
 - (void)viewDidLoad
 {
+    self.title= @"Settings";
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(0,0,35,28);
+    [button setBackgroundImage:[UIImage imageNamed:@"menu.png"] forState:UIControlStateNormal];
+    
+    button.tintColor = [UIColor colorWithRed:171/255.0 green:36/255.0 blue:44/255.0 alpha:1.0];
+    
+    // Set the side bar button action. When it's tapped, it'll show up the sidebar.
+    
+    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:button ];
+    [button addTarget:self.revealViewController action:@selector(revealToggle:) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    
+    // Set the gesture
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+    
+    //Add image for Navigation Bar
+    
+    [self.navigationController.navigationBar  setBackgroundImage:[UIImage imageNamed: @"navigationlogo1"] forBarMetrics: UIBarMetricsDefaultPrompt];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }

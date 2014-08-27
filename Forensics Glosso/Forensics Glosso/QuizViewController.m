@@ -1,18 +1,18 @@
 //
-//  GlossaryTableViewController.m
+//  QuizViewController.m
 //  Forensics Glosso
 //
 //  Created by BSA Univ15 on 27/08/14.
 //  Copyright (c) 2014 BSA Univ15. All rights reserved.
 //
 
-#import "GlossaryTableViewController.h"
+#import "QuizViewController.h"
 
-@interface GlossaryTableViewController ()
+@interface QuizViewController ()
 
 @end
 
-@implementation GlossaryTableViewController
+@implementation QuizViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -25,7 +25,7 @@
 
 - (void)viewDidLoad
 {
-    self.title= @"Glossary";
+    self.title= @"Quiz";
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake(0,0,35,28);
@@ -48,10 +48,8 @@
     
     [self.navigationController.navigationBar  setBackgroundImage:[UIImage imageNamed: @"navigationlogo1"] forBarMetrics: UIBarMetricsDefaultPrompt];
     
-    _glossarymenuItems=@[@"computernetworks",@"filesystems",@"cyberforensics",@"cyberlaws",@"siem"];
-    
+    _quizmenuItems=@[@"computernetworks",@"filesystems",@"cyberforensics",@"cyberlaws",@"siem"];
     [super viewDidLoad];
-    
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -70,24 +68,25 @@
 
 //- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 //{
-//
+//#warning Potentially incomplete method implementation.
 //    // Return the number of sections.
 //    return 0;
 //}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-
+    
     // Return the number of rows in the section.
-    return [self.glossarymenuItems count];
+    return [self.quizmenuItems count];
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSString *CellIdentifier = [self.glossarymenuItems objectAtIndex:indexPath.row];
+    NSString *CellIdentifier = [self.quizmenuItems objectAtIndex:indexPath.row];
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     return cell;
 }
+
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {

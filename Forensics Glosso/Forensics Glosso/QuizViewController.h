@@ -1,5 +1,5 @@
 //
-//  GlossaryTableViewController.h
+//  QuizViewController.h
 //  Forensics Glosso
 //
 //  Created by BSA Univ15 on 27/08/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "SWRevealViewController.h"
-@interface GlossaryTableViewController : UITableViewController
-@property (nonatomic, strong) NSArray *glossarymenuItems;
+@interface QuizViewController : UITableViewController
+@property (nonatomic, strong) NSArray *quizmenuItems;
 @end
