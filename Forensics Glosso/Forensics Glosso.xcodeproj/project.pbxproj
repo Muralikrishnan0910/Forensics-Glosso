@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E2AC5DE19AD9C41001EE37B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2AC5DD19AD9C41001EE37B /* Foundation.framework */; };
+		0E2AC5E019AD9C41001EE37B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2AC5DF19AD9C41001EE37B /* CoreGraphics.framework */; };
+		0E2AC5E219AD9C41001EE37B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2AC5E119AD9C41001EE37B /* UIKit.framework */; };
+		0E2AC5E819AD9C41001EE37B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AC5E619AD9C41001EE37B /* InfoPlist.strings */; };
+		0E2AC5EA19AD9C41001EE37B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2AC5E919AD9C41001EE37B /* main.m */; };
+		0E2AC5EE19AD9C41001EE37B /* HomeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2AC5ED19AD9C41001EE37B /* HomeAppDelegate.m */; };
+		0E2AC5F119AD9C41001EE37B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AC5EF19AD9C41001EE37B /* Main_iPhone.storyboard */; };
+		0E2AC5F419AD9C41001EE37B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AC5F219AD9C41001EE37B /* Main_iPad.storyboard */; };
+		0E2AC5F719AD9C41001EE37B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2AC5F619AD9C41001EE37B /* HomeViewController.m */; };
+		0E2AC5F919AD9C41001EE37B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AC5F819AD9C41001EE37B /* Images.xcassets */; };
+		0E2AC60019AD9C41001EE37B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2AC5FF19AD9C41001EE37B /* XCTest.framework */; };
+		0E2AC60119AD9C41001EE37B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2AC5DD19AD9C41001EE37B /* Foundation.framework */; };
+		0E2AC60219AD9C41001EE37B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2AC5E119AD9C41001EE37B /* UIKit.framework */; };
+		0E2AC60A19AD9C41001EE37B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AC60819AD9C41001EE37B /* InfoPlist.strings */; };
+		0E2AC60C19AD9C41001EE37B /* Forensics_GlossoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2AC60B19AD9C41001EE37B /* Forensics_GlossoTests.m */; };
+		0E2AC61819AD9CCA001EE37B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2AC61719AD9CCA001EE37B /* SWRevealViewController.m */; };
+		0E2AC61B19AD9CF3001EE37B /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2AC61A19AD9CF3001EE37B /* MenuTableViewController.m */; };
+		0E2AC62419AD9ECC001EE37B /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AC61D19AD9ECC001EE37B /* download.jpeg */; };
+		0E2AC62519AD9ECC001EE37B /* Exit.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AC61E19AD9ECC001EE37B /* Exit.png */; };
+		0E2AC62619AD9ECC001EE37B /* glossary.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AC61F19AD9ECC001EE37B /* glossary.png */; };
+		0E2AC62719AD9ECC001EE37B /* home1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AC62019AD9ECC001EE37B /* home1.png */; };
+		0E2AC62819AD9ECC001EE37B /* quiz.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AC62119AD9ECC001EE37B /* quiz.png */; };
+		0E2AC62919AD9ECC001EE37B /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AC62219AD9ECC001EE37B /* settings.png */; };
+		0E2AC62A19AD9ECC001EE37B /* settings1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AC62319AD9ECC001EE37B /* settings1.png */; };
+		0E2AC62D19AD9F58001EE37B /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AC62B19AD9F58001EE37B /* menu.png */; };
+		0E2AC62E19AD9F58001EE37B /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AC62C19AD9F58001EE37B /* menu@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E2AC60319AD9C41001EE37B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E2AC5D219AD9C41001EE37B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E2AC5D919AD9C41001EE37B;
+			remoteInfo = "Forensics Glosso";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E2AC5DA19AD9C41001EE37B /* Forensics Glosso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Forensics Glosso.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E2AC5DD19AD9C41001EE37B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0E2AC5DF19AD9C41001EE37B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0E2AC5E119AD9C41001EE37B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0E2AC5E519AD9C41001EE37B /* Forensics Glosso-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Forensics Glosso-Info.plist"; sourceTree = "<group>"; };
+		0E2AC5E719AD9C41001EE37B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E2AC5E919AD9C41001EE37B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E2AC5EB19AD9C41001EE37B /* Forensics Glosso-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Forensics Glosso-Prefix.pch"; sourceTree = "<group>"; };
+		0E2AC5EC19AD9C41001EE37B /* HomeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeAppDelegate.h; sourceTree = "<group>"; };
+		0E2AC5ED19AD9C41001EE37B /* HomeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeAppDelegate.m; sourceTree = "<group>"; };
+		0E2AC5F019AD9C41001EE37B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		0E2AC5F319AD9C41001EE37B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		0E2AC5F519AD9C41001EE37B /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0E2AC5F619AD9C41001EE37B /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		0E2AC5F819AD9C41001EE37B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0E2AC5FE19AD9C41001EE37B /* Forensics GlossoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forensics GlossoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E2AC5FF19AD9C41001EE37B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0E2AC60719AD9C41001EE37B /* Forensics GlossoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Forensics GlossoTests-Info.plist"; sourceTree = "<group>"; };
+		0E2AC60919AD9C41001EE37B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E2AC60B19AD9C41001EE37B /* Forensics_GlossoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Forensics_GlossoTests.m; sourceTree = "<group>"; };
+		0E2AC61619AD9CCA001EE37B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		0E2AC61719AD9CCA001EE37B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		0E2AC61919AD9CF3001EE37B /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		0E2AC61A19AD9CF3001EE37B /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
+		0E2AC61D19AD9ECC001EE37B /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
+		0E2AC61E19AD9ECC001EE37B /* Exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Exit.png; sourceTree = "<group>"; };
+		0E2AC61F19AD9ECC001EE37B /* glossary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glossary.png; sourceTree = "<group>"; };
+		0E2AC62019AD9ECC001EE37B /* home1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home1.png; sourceTree = "<group>"; };
+		0E2AC62119AD9ECC001EE37B /* quiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz.png; sourceTree = "<group>"; };
+		0E2AC62219AD9ECC001EE37B /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		0E2AC62319AD9ECC001EE37B /* settings1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings1.png; sourceTree = "<group>"; };
+		0E2AC62B19AD9F58001EE37B /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		0E2AC62C19AD9F58001EE37B /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E2AC5D719AD9C41001EE37B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2AC5E019AD9C41001EE37B /* CoreGraphics.framework in Frameworks */,
+				0E2AC5E219AD9C41001EE37B /* UIKit.framework in Frameworks */,
+				0E2AC5DE19AD9C41001EE37B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2AC5FB19AD9C41001EE37B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2AC60019AD9C41001EE37B /* XCTest.framework in Frameworks */,
+				0E2AC60219AD9C41001EE37B /* UIKit.framework in Frameworks */,
+				0E2AC60119AD9C41001EE37B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E2AC5D119AD9C41001EE37B = {
+			isa = PBXGroup;
+			children = (
+				0E2AC61C19AD9EB7001EE37B /* Images */,
+				0E2AC61519AD9C80001EE37B /* Third Party */,
+				0E2AC5E319AD9C41001EE37B /* Forensics Glosso */,
+				0E2AC60519AD9C41001EE37B /* Forensics GlossoTests */,
+				0E2AC5DC19AD9C41001EE37B /* Frameworks */,
+				0E2AC5DB19AD9C41001EE37B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E2AC5DB19AD9C41001EE37B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E2AC5DA19AD9C41001EE37B /* Forensics Glosso.app */,
+				0E2AC5FE19AD9C41001EE37B /* Forensics GlossoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E2AC5DC19AD9C41001EE37B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E2AC5DD19AD9C41001EE37B /* Foundation.framework */,
+				0E2AC5DF19AD9C41001EE37B /* CoreGraphics.framework */,
+				0E2AC5E119AD9C41001EE37B /* UIKit.framework */,
+				0E2AC5FF19AD9C41001EE37B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E2AC5E319AD9C41001EE37B /* Forensics Glosso */ = {
+			isa = PBXGroup;
+			children = (
+				0E2AC5EC19AD9C41001EE37B /* HomeAppDelegate.h */,
+				0E2AC5ED19AD9C41001EE37B /* HomeAppDelegate.m */,
+				0E2AC5EF19AD9C41001EE37B /* Main_iPhone.storyboard */,
+				0E2AC5F219AD9C41001EE37B /* Main_iPad.storyboard */,
+				0E2AC61919AD9CF3001EE37B /* MenuTableViewController.h */,
+				0E2AC61A19AD9CF3001EE37B /* MenuTableViewController.m */,
+				0E2AC5F519AD9C41001EE37B /* HomeViewController.h */,
+				0E2AC5F619AD9C41001EE37B /* HomeViewController.m */,
+				0E2AC5F819AD9C41001EE37B /* Images.xcassets */,
+				0E2AC5E419AD9C41001EE37B /* Supporting Files */,
+			);
+			path = "Forensics Glosso";
+			sourceTree = "<group>";
+		};
+		0E2AC5E419AD9C41001EE37B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E2AC5E519AD9C41001EE37B /* Forensics Glosso-Info.plist */,
+				0E2AC5E619AD9C41001EE37B /* InfoPlist.strings */,
+				0E2AC5E919AD9C41001EE37B /* main.m */,
+				0E2AC5EB19AD9C41001EE37B /* Forensics Glosso-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E2AC60519AD9C41001EE37B /* Forensics GlossoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E2AC60B19AD9C41001EE37B /* Forensics_GlossoTests.m */,
+				0E2AC60619AD9C41001EE37B /* Supporting Files */,
+			);
+			path = "Forensics GlossoTests";
+			sourceTree = "<group>";
+		};
+		0E2AC60619AD9C41001EE37B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E2AC60719AD9C41001EE37B /* Forensics GlossoTests-Info.plist */,
+				0E2AC60819AD9C41001EE37B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E2AC61519AD9C80001EE37B /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				0E2AC61619AD9CCA001EE37B /* SWRevealViewController.h */,
+				0E2AC61719AD9CCA001EE37B /* SWRevealViewController.m */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		0E2AC61C19AD9EB7001EE37B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0E2AC62B19AD9F58001EE37B /* menu.png */,
+				0E2AC62C19AD9F58001EE37B /* menu@2x.png */,
+				0E2AC61D19AD9ECC001EE37B /* download.jpeg */,
+				0E2AC61E19AD9ECC001EE37B /* Exit.png */,
+				0E2AC61F19AD9ECC001EE37B /* glossary.png */,
+				0E2AC62019AD9ECC001EE37B /* home1.png */,
+				0E2AC62119AD9ECC001EE37B /* quiz.png */,
+				0E2AC62219AD9ECC001EE37B /* settings.png */,
+				0E2AC62319AD9ECC001EE37B /* settings1.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E2AC5D919AD9C41001EE37B /* Forensics Glosso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E2AC60F19AD9C41001EE37B /* Build configuration list for PBXNativeTarget "Forensics Glosso" */;
+			buildPhases = (
+				0E2AC5D619AD9C41001EE37B /* Sources */,
+				0E2AC5D719AD9C41001EE37B /* Frameworks */,
+				0E2AC5D819AD9C41001EE37B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Forensics Glosso";
+			productName = "Forensics Glosso";
+			productReference = 0E2AC5DA19AD9C41001EE37B /* Forensics Glosso.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E2AC5FD19AD9C41001EE37B /* Forensics GlossoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E2AC61219AD9C41001EE37B /* Build configuration list for PBXNativeTarget "Forensics GlossoTests" */;
+			buildPhases = (
+				0E2AC5FA19AD9C41001EE37B /* Sources */,
+				0E2AC5FB19AD9C41001EE37B /* Frameworks */,
+				0E2AC5FC19AD9C41001EE37B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E2AC60419AD9C41001EE37B /* PBXTargetDependency */,
+			);
+			name = "Forensics GlossoTests";
+			productName = "Forensics GlossoTests";
+			productReference = 0E2AC5FE19AD9C41001EE37B /* Forensics GlossoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E2AC5D219AD9C41001EE37B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Home;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "BSA Univ15";
+				TargetAttributes = {
+					0E2AC5FD19AD9C41001EE37B = {
+						TestTargetID = 0E2AC5D919AD9C41001EE37B;
+					};
+				};
+			};
+			buildConfigurationList = 0E2AC5D519AD9C41001EE37B /* Build configuration list for PBXProject "Forensics Glosso" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E2AC5D119AD9C41001EE37B;
+			productRefGroup = 0E2AC5DB19AD9C41001EE37B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E2AC5D919AD9C41001EE37B /* Forensics Glosso */,
+				0E2AC5FD19AD9C41001EE37B /* Forensics GlossoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E2AC5D819AD9C41001EE37B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2AC5F419AD9C41001EE37B /* Main_iPad.storyboard in Resources */,
+				0E2AC62A19AD9ECC001EE37B /* settings1.png in Resources */,
+				0E2AC62E19AD9F58001EE37B /* menu@2x.png in Resources */,
+				0E2AC5F919AD9C41001EE37B /* Images.xcassets in Resources */,
+				0E2AC62819AD9ECC001EE37B /* quiz.png in Resources */,
+				0E2AC62419AD9ECC001EE37B /* download.jpeg in Resources */,
+				0E2AC62619AD9ECC001EE37B /* glossary.png in Resources */,
+				0E2AC62519AD9ECC001EE37B /* Exit.png in Resources */,
+				0E2AC62919AD9ECC001EE37B /* settings.png in Resources */,
+				0E2AC62D19AD9F58001EE37B /* menu.png in Resources */,
+				0E2AC5F119AD9C41001EE37B /* Main_iPhone.storyboard in Resources */,
+				0E2AC62719AD9ECC001EE37B /* home1.png in Resources */,
+				0E2AC5E819AD9C41001EE37B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2AC5FC19AD9C41001EE37B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2AC60A19AD9C41001EE37B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E2AC5D619AD9C41001EE37B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2AC5EA19AD9C41001EE37B /* main.m in Sources */,
+				0E2AC5EE19AD9C41001EE37B /* HomeAppDelegate.m in Sources */,
+				0E2AC5F719AD9C41001EE37B /* HomeViewController.m in Sources */,
+				0E2AC61819AD9CCA001EE37B /* SWRevealViewController.m in Sources */,
+				0E2AC61B19AD9CF3001EE37B /* MenuTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2AC5FA19AD9C41001EE37B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2AC60C19AD9C41001EE37B /* Forensics_GlossoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E2AC60419AD9C41001EE37B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E2AC5D919AD9C41001EE37B /* Forensics Glosso */;
+			targetProxy = 0E2AC60319AD9C41001EE37B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E2AC5E619AD9C41001EE37B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E2AC5E719AD9C41001EE37B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0E2AC5EF19AD9C41001EE37B /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E2AC5F019AD9C41001EE37B /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0E2AC5F219AD9C41001EE37B /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E2AC5F319AD9C41001EE37B /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		0E2AC60819AD9C41001EE37B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E2AC60919AD9C41001EE37B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E2AC60D19AD9C41001EE37B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E2AC60E19AD9C41001EE37B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E2AC61019AD9C41001EE37B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forensics Glosso/Forensics Glosso-Prefix.pch";
+				INFOPLIST_FILE = "Forensics Glosso/Forensics Glosso-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0E2AC61119AD9C41001EE37B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forensics Glosso/Forensics Glosso-Prefix.pch";
+				INFOPLIST_FILE = "Forensics Glosso/Forensics Glosso-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0E2AC61319AD9C41001EE37B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Forensics Glosso.app/Forensics Glosso";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forensics Glosso/Forensics Glosso-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Forensics GlossoTests/Forensics GlossoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0E2AC61419AD9C41001EE37B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Forensics Glosso.app/Forensics Glosso";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forensics Glosso/Forensics Glosso-Prefix.pch";
+				INFOPLIST_FILE = "Forensics GlossoTests/Forensics GlossoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E2AC5D519AD9C41001EE37B /* Build configuration list for PBXProject "Forensics Glosso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E2AC60D19AD9C41001EE37B /* Debug */,
+				0E2AC60E19AD9C41001EE37B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E2AC60F19AD9C41001EE37B /* Build configuration list for PBXNativeTarget "Forensics Glosso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E2AC61019AD9C41001EE37B /* Debug */,
+				0E2AC61119AD9C41001EE37B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E2AC61219AD9C41001EE37B /* Build configuration list for PBXNativeTarget "Forensics GlossoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E2AC61319AD9C41001EE37B /* Debug */,
+				0E2AC61419AD9C41001EE37B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E2AC5D219AD9C41001EE37B /* Project object */;
+}
